@@ -1,0 +1,249 @@
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 10px;
+}
+
+.menu{
+	margin-top: 8px;
+}
+
+.menu_item{
+	margin: 0 57px;
+}
+
+.menu_item a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+}
+
+.offer{
+	margin-top: 117px;
+}
+
+.offer_title{
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+.offer_intro{
+	font-size: 20px;
+	line-height: 1.3em;
+}
+
+.offer_text{
+	font-size: 16px;
+	margin-top: 15px;
+	color: #555555;
+	width: 400px;
+}
+
+.icons_item{
+	margin-right: 30px;
+}
+
+.icons_item a{
+	color: #000;
+	font-size: 42px;
+	transition: all 0.3s ease;
+}
+
+.icons_item a:hover{
+	text-decoration: none;
+	color: #ff4800;
+}
+
+h1, h2, h3, h4{
+	font-weight: 700;
+	color: #000;
+}
+
+h3{
+	font-weight: 400;
+}
+
+h2{
+	text-align: center;
+}
+
+.ipad{
+	display: block;
+	margin: 60px auto 0;
+	height: 420px;
+	width: 320px;
+}
+
+.title{
+	padding-top: 100px;
+}
+
+.title_main{
+	font-size: 32px;
+	text-align: center;
+}
+
+.title_text{
+	font-size: 20px;
+	text-align: center;
+}
+
+.interesting{
+	margin-bottom: 65px;
+}
+
+.interesting_icon{
+	font-size: 50px;
+	margin-right: 37px;
+	color:#000;
+}
+
+.interesting_text{
+	color: #898989;
+}
+
+.feedback{
+	background: #000;
+	color: #fff;
+}
+
+.blue{
+	color: #95d9fb;
+}
+
+.btn{
+	color: black;
+	height: 38px;
+}
+
+input{
+	height: 38px;
+	width: 400px;
+}
+
+.title_main1{
+	text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+	.logo{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.offer{
+		text-align: center;
+	}
+
+	.offer_text{
+		margin: 20px auto;
+		width: auto;
+	}
+
+	.icons{
+		justify-content: center;
+	}
+
+	.icons_item: nth-child(3){
+		margin-right: 0;
+	}
+
+	.form_input{
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.button{
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.title_text{
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.ipad{
+		width: 100%;
+	}
+
+	.menu{
+		flex-direction: column;
+	}
+
+	.menu_item{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+}
+
+.footer_info{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding: 50px 0 94px;
+	width: 184px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer{
+	background: #000;
+}
+
+.animate__animated:hover{
+	display: inline-block;
+	animation: pulse;
+	animation-duration: 2s;
+}
+
+.animate__animated1:hover{
+	display: inline-block;
+	animation: flip;
+	animation-duration: 2s;
+}
+
+.animate__animated2:hover{
+	display: inline-block;
+	animation: fadeOutUp;
+	animation-duration: 2s;
+}
+
+.animate__animated3:hover{
+	display: inline-block;
+	animation: hinge;
+	animation-duration: 2s;
+}
+
+.animate__animated4:hover{
+	display: inline-block;
+	animation: hinge;
+	animation-duration: 2s;
+}
+
+.animate__animated5:hover{
+	display: inline-block;
+	animation: hinge;
+	animation-duration: 2s;
+}
+
+.animate__animated6:hover{
+	display: inline-block;
+	animation: hinge;
+	animation-duration: 2s;
+}
